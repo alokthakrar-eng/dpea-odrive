@@ -67,6 +67,7 @@ folder of this repository. Your goal with this GUI is to have the following --
 * Another screen that controls the motor with trapezoidal trajectory control. Have text boxes 
   for acceleration, target position, and deceleration plus a submit button to send the command to the motor.
 * Another screen which utilizes a GPIO pin to move the motor when a sensor or switch is activated.
+* If using a constrained motor setup (ex. lead screw with endstops), have a joystick control the motor within the constraints such that a user can get close, but never touch the ends of the setup. The point of this is to be fun for the user, so try your best to keep it as smooth as possible and get as close as you can to the endstops without comprimising on safety. Note that there are many different ways to approach this challenge, and your solution might correspondingly look different than that of your partner.
 
 
 
